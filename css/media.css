@@ -1,0 +1,21 @@
+@media screen and (max-width: 1440px) {
+  .intro .container h1 {
+    font-size: 2em;
+  }
+
+  .intro .container h3 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro .container p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    top: 0%;
+  }
+}

@@ -1,0 +1,41 @@
+nav {
+  background-color: #f6f8f9;
+}
+
+nav ul a {
+  color: grey;
+}
+
+nav .brand-logo {
+  color: #fa6980;
+  font-size: 1.5rem;
+  padding: 0 15px;
+}
+
+nav a {
+  color: #fa6980;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.intro {
+  z-index: 2;
+  top: 25%;
+  position: absolute;
+  width: 100%;
+  color: white;
+}
+
+header .row .l7 img {
+  z-index: 1;
+}
+
+header .row .no-padding {
+  position: relative;
+}
+
+header .intro .btn-small {
+  background-color: #fa6980;
+}

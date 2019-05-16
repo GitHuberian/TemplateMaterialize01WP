@@ -44,6 +44,15 @@
   header::before {
     display: none;
   }
+
+  footer.page-footer .social-menu ul {
+    justify-content: flex-start;
+  }
+
+  footer.page-footer .social-menu ul li {
+    padding-right: 25px;
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 425px) {

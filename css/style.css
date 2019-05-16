@@ -172,10 +172,58 @@ section#portafolio .m4 .card .card-image img {
   object-fit: cover;
 }
 
-section#portafolio .col2 {
+section#portafolio .bottom-space {
+  padding-bottom: 2px;
+}
+
+footer.page-footer {
+  background-color: #a6adb4;
   padding-bottom: 20px;
 }
-section#portafolio .col2 h4 {
+
+.custom-input {
+  border-radius: 5px;
+  border-color: #d3d2d46b !important;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]) {
+  border: 0px;
+  box-shadow: none;
+  margin: 0;
+  color: #fff;
+}
+
+input[type="text"]:not(.browser-default),
+input[type="email"]:not(.browser-default) {
+  border: 0px;
+  box-shadow: none;
+  margin: 0;
+  color: #fff;
+}
+
+.custom-input i {
+  color: #fff;
+}
+
+footer.page-footer .social-menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+footer.page-footer .social-menu ul li {
+  padding-left: 25px;
+}
+
+footer.page-footer .social-menu ul li a img {
+  width: 1.5em;
+}
+
+footer.page-footer .white-text {
   font-weight: 500;
-  font-size: 1em;
 }

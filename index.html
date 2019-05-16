@@ -23,7 +23,7 @@
 
   <body>
     <header>
-      <nav class="navbar-fixed">
+      <nav class="navbar-fixed z-depth-0">
         <div class="nav-wrapper">
           <a href="#!" class="brand-logo hide-on-small-only">MARZIA TOLEDO</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"
@@ -56,7 +56,9 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Molestiae vel soluta magni architecto dolor ea enim cum.
               </p>
-              <a class="waves-effect waves-light btn-small">PORTAFOLIO</a>
+              <a class="waves-effect waves-light btn-small z-depth-1 hoverable"
+                >PORTAFOLIO</a
+              >
             </div>
           </div>
         </div>
@@ -71,22 +73,26 @@
                     <p>VIAJES</p>
                   </div>
                   <h4>Article title</h4>
-                  <p>
+                  <p class="substract">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Laborum dolorum minima voluptate aspernatur...
                   </p>
-                  <p><i class="material-icons">access_time</i> 2 min ago</p>
+                  <p class="time">
+                    <i class="material-icons">access_time</i> 2 min ago
+                  </p>
                 </div>
                 <div class="s12 m12 l12">
                   <div class="s12 m12 l12 categories">
                     <p>VIAJES</p>
                   </div>
                   <h4>Article title</h4>
-                  <p>
+                  <p class="substract">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Laborum dolorum minima voluptate aspernatur...
                   </p>
-                  <p><i class="material-icons">access_time</i> 2 min ago</p>
+                  <p class="time">
+                    <i class="material-icons">access_time</i> 2 min ago
+                  </p>
                 </div>
               </div>
             </div>
@@ -94,6 +100,72 @@
         </div>
       </div>
     </header>
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m12 l12 title">
+            <h3>MI BLOG</h3>
+            <a href=""
+              >Ver más <i class="material-icons">keyboard_arrow_right</i></a
+            >
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card z-depth-1 hoverable">
+              <div class="card-image">
+                <img src="img/card1.jpg" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+                <p class="time">
+                  <i class="material-icons">access_time</i> 2 min ago
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card z-depth-1 hoverable">
+              <div class="card-image">
+                <img src="img/card2.jpg" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+                <p class="time">
+                  <i class="material-icons">access_time</i> 2 min ago
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card z-depth-1 hoverable">
+              <div class="card-image">
+                <img src="img/card3.jpg" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+                <p class="time">
+                  <i class="material-icons">access_time</i> 2 min ago
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>

@@ -40,6 +40,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  header::before {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .intro {
     top: 10%;

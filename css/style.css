@@ -1,13 +1,20 @@
+body {
+  background-color: #f6f8f9;
+}
 h1,
 h3 {
   font-weight: 500;
+}
+header {
+  position: relative;
+  background-color: white;
 }
 nav {
   background-color: #f6f8f9;
 }
 
 nav ul a {
-  color: grey;
+  color: #757575;
 }
 
 nav .brand-logo {
@@ -21,8 +28,8 @@ nav a {
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: #5a5a5a;
+  background-color: rgba(0, 0, 0, 0);
+  color: #343638;
   font-weight: 500;
 }
 
@@ -42,6 +49,17 @@ nav ul a:hover {
   color: white;
 }
 
+header::before {
+  content: "";
+  width: 100%;
+  height: 30px;
+  display: block;
+  bottom: 0px;
+  position: absolute;
+  background-color: #f6f8f9;
+  z-index: 1;
+}
+
 header .intro .container hr {
   border-bottom-color: white;
   border-left-color: rgba(255, 255, 255, 0);
@@ -55,6 +73,7 @@ header .row .no-padding {
 
 header .intro .btn-small {
   background-color: #fa6980;
+  font-weight: 500;
 }
 
 .margin-center {
@@ -81,6 +100,63 @@ header .latests-post .categories {
   padding-bottom: 15px;
 }
 
-header .latests-post p i {
+header .latests-post .substract {
+  color: #9e9e9e;
+  font-weight: 500;
+}
+
+header .latests-post .time {
+  color: #9e9e9e;
+  font-weight: 500;
+}
+
+header .latests-post .time i {
+  vertical-align: -0.4vh;
+  font-size: 1.4em;
+}
+
+section#blog .card .card-image img {
+  height: 200px;
+  object-fit: cover;
+}
+
+section#blog .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#blog .title h3 {
+  font-size: 1.4em;
+}
+
+section#blog .title a {
+  color: #000;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+section#blog .title i {
   vertical-align: -0.8vh;
+  color: black;
+}
+
+section#blog .card .card-title {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+section#blog .card .time {
+  padding-top: 10px;
+}
+
+section#blog .card .time i {
+  vertical-align: -0.4vh;
+  font-size: 1.4em;
+}
+
+section#blog .card p {
+  font-weight: 500;
+  color: #9e9e9e;
 }

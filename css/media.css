@@ -1,0 +1,62 @@
+@media screen and (max-width: 2560px) {
+  header .intro h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+  header .intro h3 {
+    font-size: 1.92rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .intro .container h1 {
+    font-size: 2em;
+  }
+
+  .intro .container h3 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header .intro .container p {
+    font-size: 1em;
+  }
+
+  header .latests-post p {
+    font-size: 0.9em;
+  }
+
+  header .latests-post h3 {
+    font-size: 1.4em;
+  }
+
+  header .flex-box .no-padding img {
+    height: 560px;
+    object-fit: cover;
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header::before {
+    display: none;
+  }
+
+  footer.page-footer .social-menu ul {
+    justify-content: flex-start;
+  }
+
+  footer.page-footer .social-menu ul li {
+    padding-right: 25px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    top: 10%;
+  }
+}

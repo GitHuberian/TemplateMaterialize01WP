@@ -1,3 +1,7 @@
+h1,
+h3 {
+  font-weight: 500;
+}
 nav {
   background-color: #f6f8f9;
 }
@@ -16,20 +20,33 @@ nav a {
   color: #fa6980;
 }
 
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #5a5a5a;
+  font-weight: 500;
+}
+
 .no-padding {
   padding: 0;
 }
 
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .intro {
-  z-index: 2;
   top: 25%;
   position: absolute;
   width: 100%;
   color: white;
 }
 
-header .row .l7 img {
-  z-index: 1;
+header .intro .container hr {
+  border-bottom-color: white;
+  border-left-color: rgba(255, 255, 255, 0);
+  border-top-color: rgba(255, 255, 255, 0);
+  border-right-color: rgba(255, 255, 255, 0);
 }
 
 header .row .no-padding {
@@ -38,4 +55,32 @@ header .row .no-padding {
 
 header .intro .btn-small {
   background-color: #fa6980;
+}
+
+.margin-center {
+  margin: auto;
+}
+
+header .latests-post h3 {
+  font-size: 1.7em;
+}
+
+header .latests-post h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+header .latests-post .categories {
+  color: #fa6980;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+.space-bottom {
+  padding-bottom: 15px;
+}
+
+header .latests-post p i {
+  vertical-align: -0.8vh;
 }
